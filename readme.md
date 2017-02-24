@@ -1,4 +1,4 @@
-# SSIS Deployement Framework
+# SSIS Deployment Framework
 
 These PowerShell scripts deconstruct the MS SQL Server Information Services ("SSIS") Integration Services Project Deployment Files ("ISPAC") to isolate parent/child relationships within the packages, deploy to a coordinated file structure, align environment variables, and build MS SQL Server Agent Jobs.
 
