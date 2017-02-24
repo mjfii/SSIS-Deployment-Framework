@@ -45,9 +45,9 @@ If the scripts are placed in the following folder structure with ISPACs in subse
 
 ## Contributors
 
-Michael Flanigan
-email: [mick.flanigan@gmail.com](mick.flanigan@gmail.com)
-twitter: [@mjfii](https://twitter.com/mjfii)
+Michael Flanigan  
+email: [mick.flanigan@gmail.com](mick.flanigan@gmail.com)  
+twitter: [@mjfii](https://twitter.com/mjfii)  
 
 # Versioning
 
