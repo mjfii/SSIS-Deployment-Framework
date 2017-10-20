@@ -174,7 +174,7 @@ foreach ($folder in $folders) {
 
         # build the package
         $agent = New-Object -TypeName Microsoft.SQLServer.Management.Smo.Server($serverName)
-        [string]$credName = @($agent.JobServer.ProxyAccounts| Where-Object {$_.Name -match "EnterpriseData"})[0].Name
+        [string]$credName = @($agent.JobServer.ProxyAccounts| Where-Object {$_.Name -match "EnterpriseData"})[0].Name  # $credName is the proxy, this is looking up based on "EnterpriseData", change to your proxy
 
         # get alll the parent packages
         $parentPackages = @($project.Packages | Where-Object {$_.Name -match "-Parent"})
