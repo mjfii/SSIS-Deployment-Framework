@@ -42,6 +42,7 @@ If the scripts are placed in the following folder structure with ISPACs in subse
 3. Deploy each of the ISPACs to the corresponding folders within the database as they are aligned to the directory structure;
 4. For each project parameter in each ISPAC, a corresponding environment variable is created (or altered) and the package default is used; and
 5. An MS SQL Server Agent Job ("Job") is created for each 'package' in each 'project' where the 'package' name contains the string '-Parent' (this can obviously be altered), and the Job references this 'package' to execute and aligns it to the environment variables noted in Step 4.
+6. IMPORTANT NOTE: In order to create the job, there needs to be an 'execute as', this will not ever be a framework standard in this regard, please edit this piece of code before use - around line 177 of the `.ps1` file - it is commented in the file as well.
 
 ## Contributors
 
